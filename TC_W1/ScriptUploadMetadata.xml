@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>TC_W1</ScriptName>
+  <Protocol>TruClient - Web</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="Lib-View.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="TC_W1.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="TC_W1.prm" Filter="2" />
+    <FileEntry Name="C-functions.c" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="JS-functions.js" Filter="2" />
+    <FileEntry Name="P_PWD.dat" Filter="2" />
+    <FileEntry Name="P_TIID.dat" Filter="2" />
+    <FileEntry Name="P_UID.dat" Filter="2" />
+    <FileEntry Name="default.xml" Filter="2" />
+    <FileEntry Name="TruClientScriptMetadata.xml" Filter="2" />
+    <FileEntry Name="TC.xsl" Filter="2" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="2" />
+    <FileEntry Name="TCIEAuthenticationFilters.ini" Filter="2" />
+    <FileEntry Name="user_modified_perfs.json" Filter="2" />
+    <FileEntry Name="combined_TC_W1.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="profiles\" Filter="2" />
+    <FileEntry Name="241827157440.idx" Filter="1" />
+    <FileEntry Name="24182715744_0hD.453.idx" Filter="1" />
+    <FileEntry Name="24182715744_C3r.85.idx" Filter="1" />
+    <FileEntry Name="24182715744_c5Z.197.idx" Filter="1" />
+    <FileEntry Name="24182715744_i82.243.idx" Filter="1" />
+    <FileEntry Name="24182715744_jLP.713.idx" Filter="1" />
+    <FileEntry Name="24182715744_orl.593.idx" Filter="1" />
+    <FileEntry Name="24182715744_p5B.389.idx" Filter="1" />
+    <FileEntry Name="24182715744_pcq.627.idx" Filter="1" />
+    <FileEntry Name="24182715744_q7J.573.idx" Filter="1" />
+    <FileEntry Name="24182715744_tpH.785.idx" Filter="1" />
+    <FileEntry Name="24182715744_Wvc.753.idx" Filter="1" />
+    <FileEntry Name="24182715744_YAR.949.idx" Filter="1" />
+    <FileEntry Name="263552956440.idx" Filter="1" />
+    <FileEntry Name="81137616440.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="default.cfg.bak" Filter="1" />
+    <FileEntry Name="interactive_replay_TruClientBrowser.txt" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="TC_W1.c.pickle" Filter="1" />
+    <FileEntry Name="TC_W1.ci" Filter="1" />
+    <FileEntry Name="TC_W1.prm.bak" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="Backup\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+    <FileEntry Name="results\" Filter="1" />
+    <FileEntry Name="resultSnap\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

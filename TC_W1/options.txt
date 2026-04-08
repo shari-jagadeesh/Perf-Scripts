@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\CF881LE\OneDrive - EY\Documents\workbench sandeep edits\TC_W1
+-IC:\Program Files (x86)\OpenText\Virtual User Generator\include
+-ec:\users\cf881le\onedrive - ey\documents\workbench sandeep edits\tc_w1\\logfile.log
+c:\users\cf881le\onedrive - ey\documents\workbench sandeep edits\tc_w1\\combined_TC_W1.c
+c:\users\cf881le\onedrive - ey\documents\workbench sandeep edits\tc_w1\\pre_cci.c

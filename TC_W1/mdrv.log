@@ -1,0 +1,87 @@
+Virtual User Script started at : 2025-12-15 15:57:25
+Warning -205179: Failed to delete the snapshot folder: "ERROR_ACCESS_DENIED"    [MsgId: MWAR-205179]
+Warning -205179: Failed to delete the snapshot on error folders: "ERROR_ACCESS_DENIED"    [MsgId: MWAR-205179]
+Warning -205179: Failed to delete the resultSnap folder: "ERROR_ACCESS_DENIED"    [MsgId: MWAR-205179]
+TruClient Replay (build 0084) for LoadRunner Professional 2025.3.0, build 0266. OS: Windows 11, Browser: TruClient Browser 130.0.1.0, initialized on 2025/12/15 at 15:57:25 (1765794445.094s)
+
+Selected Run-Time Settings:
+    Simulate a new user on each iteration...............: 1
+    NO proxy (direct connection to the Internet)
+    Check for newer versions of stored pages: 4 (Automatically)
+    Keep-Alive..........................................: 1
+    Proxy Keep-Alive....................................: 1
+    Keep-Alive timeout (ms).............................: 300000
+    HTTP Version........................................: 1.1
+    Proxy HTTP Version..................................: 1.1
+    DNS cache entries...................................: 20
+    Run-Time Settings file..............................: "C:\Users\CF881LE\OneDrive - EY\Documents\workbench sandeep edits\TC_W1\\default.cfg"
+    Vuser directory.....................................: "C:\Users\CF881LE\OneDrive - EY\Documents\workbench sandeep edits\TC_W1"
+    Vuser output directory..............................: "C:\Users\CF881LE\OneDrive - EY\Documents\workbench sandeep edits\TC_W1"
+End of selected Run-Time Settings
+
+Please refer to the ReadMe file in the LoadRunner Professional installation directory for notes about measurements and logging
+Running Vuser...
+Starting iteration 1.
+Step 1: Evaluate JavaScript code Utils.clearCookies(); Utils.clearCache() started    [MsgId: MMSG-205180]
+Warning -205179: The Utils.clearCookies API is deprecated because it is synchronous. Use the asynchronous API UtilsA.clearCookies instead. For details, see https://admhelp.microfocus.com/vugen/en/2025.3/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+Warning -205179: The Utils.clearCache API is deprecated because it is synchronous. Use the asynchronous API UtilsA.clearCache instead. For details, see https://admhelp.microfocus.com/vugen/en/2025.3/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+Step 1: Evaluate JavaScript code Utils.clearCookies(); Utils.clearCache() successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "WORKBENCH_01_MAIN_OFFERING_01_LAUNCH" started.
+Step 2: Navigate to "https://consume.eyfabric.ey.com/" started    [MsgId: MMSG-205180]
+Step 2: Navigate to https://consume.eyfabric.ey.com/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Step 3: Wait until Email address * textbox exists started    [MsgId: MMSG-205180]
+Step 3: Wait until Email address * textbox exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "WORKBENCH_01_MAIN_OFFERING_01_LAUNCH" ended with a "Pass" status (Duration: 22.5780 Think Time: 0.0030 Wasted Time: 0.7810).
+Step 4: Click on Email address * label started    [MsgId: MMSG-205180]
+Step 4: Click on Email address * label successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Step 5: Type P_UID in Email address * textbox started    [MsgId: MMSG-205180]
+Step 5: Type P.CT.LRC.Perf008@ey.com in Email address * textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Step 6: Click on Next button started    [MsgId: MMSG-205180]
+Step 6: Click on Next button successfully completed with End Event "Step synchronous network completed"    [MsgId: MMSG-205180]
+Step 7: Enter credentials in authentication dialog started    [MsgId: MMSG-205180]
+Notify: Next row for parameter P_PWD = 9 [table  = P_PWD].
+Step 7: Enter credentials in authentication dialog successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Step 11: Wait until Do you trust ey.com?  exists started    [MsgId: MMSG-205180]
+Step 11: Wait until Do you trust ey.com?  exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "WORKBENCH_01_MAIN_OFFERING_02_LOGIN" started.
+Step 12: Click on Continue button started    [MsgId: MMSG-205180]
+Step 12: Click on Continue button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Step 19: Wait until Consume button exists started    [MsgId: MMSG-205180]
+Step 19: Wait until Consume button exists successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "WORKBENCH_01_MAIN_OFFERING_02_LOGIN" ended with a "Pass" status (Duration: 19.4280 Wasted Time: 1.0970).
+Step 20: Click on Search by Tags or Offering... searchbox started    [MsgId: MMSG-205180]
+Step 20: Click on Search by Tags or Offering... searchbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Step 21: Type The combined value in Search by Tags or Offering... searchbox started    [MsgId: MMSG-205180]
+Step 21: Type The combined value in Search by Tags or Offering... searchbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "WORKBENCH_01_MAIN_OFFERING_03_SEARCHWORKBENCH" started.
+Step 24: Click on button (1) button started    [MsgId: MMSG-205180]
+Step 24: Click on button (1) button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Step 26: Wait until Workbench  exists started    [MsgId: MMSG-205180]
+Step 26: Wait until Workbench  exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "WORKBENCH_01_MAIN_OFFERING_03_SEARCHWORKBENCH" ended with a "Pass" status (Duration: 7.0980 Think Time: 0.0010 Wasted Time: 0.8530).
+Notify: Transaction "WORKBENCH_01_MAIN_OFFERING_04_CLICKCONSUME" started.
+Step 27: Click on Consume button started    [MsgId: MMSG-205180]
+Step 27: Click on Consume button successfully completed with End Event "Step synchronous network completed"    [MsgId: MMSG-205180]
+Step 28: Wait until ARADS Product Development heading exists started    [MsgId: MMSG-205180]
+Step 28: Wait until ARADS Product Development heading exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "WORKBENCH_01_MAIN_OFFERING_04_CLICKCONSUME" ended with a "Pass" status (Duration: 15.7520 Think Time: 0.0090 Wasted Time: 0.9270).
+Notify: Transaction "WORKBENCH_01_MAIN_OFFERING_05_SELECT_BILLING_PROJECT" started.
+Step 31: Click on Select button started    [MsgId: MMSG-205180]
+Step 31: Click on Select button successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Step 33: Wait until Configure the Instance textbox exists started    [MsgId: MMSG-205180]
+Step 33: Wait until Configure the Instance textbox exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "WORKBENCH_01_MAIN_OFFERING_05_SELECT_BILLING_PROJECT" ended with a "Pass" status (Duration: 0.8130 Think Time: 0.0040 Wasted Time: 0.6930).
+Step 59: Click on Configure the Instance textbox started    [MsgId: MMSG-205180]
+Step 59: Click on Configure the Instance textbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Step 60: Type P_TIID in Configure the Instance textbox started    [MsgId: MMSG-205180]
+Step 60: Type NFT_Test_106 in Configure the Instance textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Step 62: Click on Location (required)  started    [MsgId: MMSG-205180]
+Step 62: Click on Location (required)  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Step 67: Select India Central from US West 2 listbox started    [MsgId: MMSG-205180]
+Step 67: Select India Central from US West 2 listbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Action was aborted.
+Ending Vuser...
+Step 72: Scroll Data Science empowers... heading into view was stopped    [MsgId: MMSG-205180]
+Vuser Terminated.
+Action was aborted.
+Vuser 0 (thread 4648), ended OK."
